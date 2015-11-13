@@ -18,31 +18,36 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-  <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          Saguaro Janes <span class="tagline">we give them something to eat</span>
-        </a>
+<body data-spy="scroll" data-target="#navbar-collapsible">
+  <header id="header" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <div class="logo-box">
+              <img class="logo" src="images/logo.png">
+            </div>
+            <div class="title-box">
+              <h1 class="title">
+                Saguaro Janes <span class="tagline">we give them something to eat</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-push-1">
+            <nav id="navbar-collapsible">
+              <ul>
+                <li class="section-link active"><a href="#carousel">Home</a></li>
+                <li class="section-link"><a href="#about-us">About Us</a></li>
+                <li class="section-link"><a href="#what-we-do">What we do</a></li>
+                <li class="section-link"><a href="#donation">Donate today</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
-      <div class="navbar-collapse collapse" id="navbar-collapsible">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#what-we-do">What we do</a></li>
-          <li><a href="#donation" class="btn btn-success">Donate Today</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  <div class="container content">
+    </header>
+   <div class="container content">
     <section id="carousel">
       <!-- Carousel
       ================================================== -->
@@ -53,35 +58,25 @@
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
+        
+        <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <img class="first-slide" src="images/facebook-img1.jpg" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Example headline.</h1>
-                <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-              </div>
+            <div class="carousel-caption">
+              <h1>Friendly volunteers</h1>
             </div>
           </div>
           <div class="item">
             <img class="second-slide" src="images/facebook-img2.jpg" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div>
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
             </div>
           </div>
           <div class="item">
             <img class="third-slide" src="images/facebook-img3.jpg" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-              </div>
+            <div class="carousel-caption">
+                
             </div>
           </div>
         </div>
@@ -108,7 +103,7 @@
       <p>
         Saguaro Jane's begin in the 1940s when a small group of women decided
         to assist the families of those who had loved ones who went off to war.
-        Since then, our organization has grown to a group of FIND THE NUMBER of
+        Since then, our organization has grown to a group of {{INSERT NUMBER}}
         men and women volunteers who work tirelessly to provide food to our community.
       </p>
       <p>
@@ -149,41 +144,123 @@
     <section id="what-we-do">
       <h1>What we do</h1>
       <p>
-        The main purpose of our organization is to feed the hungry. We do this through
-        the following programs:
+        The main purpose of our organization is to feed the hungry. To accomplish
+        this purpose we have a variety of programs that we are able to run thanks
+        to the work of our tireless volunteers and generous donors.
       </p>
-      <h4>Brown Bag Day</h4>
-      <p>
-        Each Thursday, in cooperation with St. Mary's Food Bank, Saguaro Janes volunteers will prepare
-        food boxes to be distributed to needing families. Starting at 10 AM, our volunteers
-        help direct participants to their food boxes and if they need assistance will
-        help carry their vehicles.
-      </p>
-      <h4>Commodities</h4>
-      <p>More info needed</p>
-      <h4>Food Plus</h4>
-      <p>More info needed</p>
-      <h4>Value Box</h4>
-      <p>More info needed</p>
-      <h4>Thanksgiving</h4>
-      <p>More info needed</p>
-      <h4>Christmas</h4>
-      <p>More info needed</p>
-      <h4>Thrift Store</h4>
-      <p>
-        Saguaro Jane's also has a thrift store where many residents shop weekly.
-        Clothing, shoes, kitchen items, knickknacks, toys, linens and other items
-        are donated. This store is maintained by volunteers and all monetary donations
-        goes to pay expenses to keep the Saguaro Jane's center open.
-      </p>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#brown-bag-day" aria-controls="brown-bag" role="tab" data-toggle="tab">
+            Brown Bag Day
+          </a>
+        </li>
+        <li role="presentation" class="">
+          <a href="#special-programs" aria-controls="special-programs" role="tab" data-toggle="tab">
+            Special Programs
+          </a>
+        </li>
+        <li role="presentation" class="">
+          <a href="#holiday-programs" aria-controls="holiday-programs" role="tab" data-toggle="tab">
+            Holiday Programs
+          </a>
+        </li>
+        <li role="presentation" class="">
+          <a href="#thrift-store" aria-controls="thrift-store" role="tab" data-toggle="tab">
+            Thrift Store
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="brown-bag-day">
+          <p>
+            Each Thursday, in cooperation with St. Mary's Food Bank, Saguaro Janes volunteers will prepare
+            food boxes to be distributed to needing families. Starting at 10 AM, our volunteers
+            help direct participants to their food boxes and if they need assistance will
+            help carry their vehicles.
+          </p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="special-programs">
+          <h4>Commodities</h4>
+          <p>More info needed</p>
+          <h4>Food Plus</h4>
+          <p>More info needed</p>
+          <h4>Value Box</h4>
+          <p>More info needed</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="holiday-programs">
+          <h4>Thanksgiving</h4>
+          <p>More info needed</p>
+          <h4>Christmas</h4>
+          <p>More info needed</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="thrift-store">
+          <h4>Thrift Store</h4>
+          <p>
+            Saguaro Jane's also has a thrift store where many residents shop weekly.
+            Clothing, shoes, kitchen items, knickknacks, toys, linens and other items
+            are donated. This store is maintained by volunteers and all monetary donations
+            goes to pay expenses to keep the Saguaro Jane's center open.
+          </p>
+        </div>
+      </div>
     </section>
     <section id="donation">
-      Please submit a donation today.
+      <h1>Donate Today</h1>
+      <p>
+      Saguaro Janes is able to accomplish its mission of feeding the hungry through
+      genourous donors like you. Since our organization is run on 100% volunteer
+      work, all of your donation goes to providing food for the hungry.
+      </p>
+      <p>
+      You can make a donation today by ... {{need to fill in these details}}
+      </p>
+      <h3 class="text-center">Thanks to our generous donors who have made it possible to feed the hungry</h3>
+      <hr/>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Award Realty">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Wittmann Baptist Church">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Dream Center of Phoenix">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Hovel Ministry">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Calvary Chapel Surprise">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Ford Motor Proving Ground">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Toyota Proving Ground">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Greater Church Phoenix">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Democrat Club Sun City Arizona">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Barn Buddies 4-h">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Wickenburg Community Services">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Pora Sun City West">
+      </div>
+      <div class="pull-left donor-logo">
+        <img src="" alt="Bashas Sun City West">
+      </div>
+      <div class="clearfix"></div>
     </section>
   </div>
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/template.js"></script>
-  <script src="../js/analytics.js"></script>
+  <script src="js/analytics.js"></script>
 </body>
 </html>
